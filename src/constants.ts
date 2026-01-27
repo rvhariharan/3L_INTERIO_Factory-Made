@@ -26,42 +26,44 @@ export const HERO_SLIDES: HeroSlide[] = [
   }
 ];
 
+export const BASE_PATH = import.meta.env.BASE_URL;
+
 export const SERVICES: ServiceItem[] = [
   {
     title: "Modular Kitchen",
     description: "Ergonomic designs featuring Acrylic, Veneer, PRC Laminate, and Lacquer Glass finishes. Engineered for Indian cooking with water-resistant carcasses and soft-close mechanisms.",
     icon: "ChefHat",
-    image: "/img/modular-kitchen.jpg"
+    image: `${BASE_PATH}img/modular-kitchen.jpg`
   },
   {
     title: "Wardrobes",
     description: "Space-saving Sliding and luxurious Walk-in wardrobes. Customized internal layouts with durable factory finishes that resist warping and moisture.",
     icon: "DoorClosed",
-    image: "/img/wardrobes.jpg"
+    image: `${BASE_PATH}img/wardrobes.jpg`
   },
   {
     title: "Storage Cot",
     description: "Heavy-duty hydraulic storage cots designed for comfort and maximum utility. Built with high-grade Ply/MDF and premium hydraulic pumps for easy lifting.",
     icon: "BedDouble",
-    image: "/img/storage-cot.jpg"
+    image: `${BASE_PATH}img/storage-cot.jpg`
   },
   {
     title: "TV Units",
     description: "Contemporary floating and floor-standing TV units that hide wires and enhance your living room aesthetics. Available in stone, laminate, and duco finishes.",
     icon: "Tv",
-    image: "/img/tv-units.jpg"
+    image: `${BASE_PATH}img/tv-units.jpg`
   },
   {
     title: "Pooja Units",
     description: "Traditional yet modern Pooja units designed with serenity and storage in mind. Featuring intricate CNC cuttings and designated spaces for idols.",
     icon: "Sparkles",
-    image: "/img/pooja-units.jpg"
+    image: `${BASE_PATH}img/pooja-units.jpg`
   },
   {
     title: "Paneling & Partitions",
     description: "Decorative wall paneling and room partitions to define spaces elegantly without losing light. Uses acoustic materials and laser-cut metal or wood designs.",
     icon: "LayoutDashboard",
-    image: "/img/paneling-partitions.jpg"
+    image: `${BASE_PATH}img/paneling-partitions.jpg`
   }
 ];
 
