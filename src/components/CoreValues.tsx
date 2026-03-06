@@ -10,7 +10,7 @@ const values = [
   {
     icon: Lightbulb,
     title: "Innovation",
-    description: "We constantly upgrade our machinery and materials (from Ply to Boiling Water Proof MDF) to offer the best durability."
+    description: "We constantly upgrade our machinery and materials to offer the best durability."
   },
   {
     icon: Heart,

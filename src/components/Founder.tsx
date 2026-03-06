@@ -16,8 +16,8 @@ const Founder: React.FC = () => {
                 <Award className="w-16 h-16 text-secondary" />
              </div>
              
-             <h3 className="text-2xl font-bold tracking-wide relative z-10">Mr. Founder Name</h3>
-             <p className="text-secondary text-sm font-medium tracking-widest uppercase mt-2 relative z-10">Founder & Chief Engineer</p>
+             <h3 className="text-2xl font-bold tracking-wide relative z-10">Er. Sivaraj Paulpandian</h3>
+             <p className="text-secondary text-sm font-medium tracking-widest uppercase mt-2 relative z-10">Founder</p>
              
              <div className="mt-8 relative z-10">
                  <Quote className="w-8 h-8 text-secondary/40 mx-auto mb-2 rotate-180" />

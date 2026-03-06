@@ -16,7 +16,7 @@ const CTA: React.FC = () => {
       <div className="container mx-auto px-4 relative z-10 text-center">
         <div className="max-w-4xl mx-auto border border-secondary/30 bg-black/40 backdrop-blur-xl p-10 md:p-16 rounded-sm shadow-[0_0_50px_rgba(251,191,36,0.1)]">
             <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
-              Ready to <span className="text-gold-gradient">Upgrade</span>?
+              Get a free <span className="text-gold-gradient">Quote</span>
             </h2>
             <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto font-light leading-relaxed">
               Don't settle for manual carpentry. Experience the durability and precision of factory-made interiors. Visit our Theni showroom today.

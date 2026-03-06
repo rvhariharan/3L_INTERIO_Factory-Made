@@ -14,13 +14,13 @@ export const HERO_SLIDES: HeroSlide[] = [
     image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop", // Modern Living
     title: "Premium Modular Kitchens in Theni",
     subtitle: "Designed for Functionality, Built to Last",
-    description: "Transform your cooking space with our wide range of finishes including Acrylic, Veneer, and Lacquer Glass. 100% Factory-finished quality.",
+    description: "Transform your cooking space with our wide range of finishes including Acrylic, Veneer, Lacquer Glass and Glossy Laminates. 100% Factory-finished quality.",
     cta: "View Designs"
   },
   {
     image: "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?q=80&w=2070&auto=format&fit=crop", // Architectural
     title: "Top Interior Designers in Theni",
-    subtitle: "Trusted by Engineers & Homeowners",
+    subtitle: "Trusted by Engineers & architects",
     description: "From concept to professional installation. We offer end-to-end interior solutions for residential and commercial spaces with strict timeline adherence.",
     cta: "Schedule Site Visit"
   }
@@ -31,7 +31,7 @@ export const BASE_PATH = import.meta.env.BASE_URL;
 export const SERVICES: ServiceItem[] = [
   {
     title: "Modular Kitchen",
-    description: "Ergonomic designs featuring Acrylic, Veneer, PRC Laminate, and Lacquer Glass finishes. Engineered for Indian cooking with water-resistant carcasses and soft-close mechanisms.",
+    description: "Ergonomic designs featuring Acrylic, Veneer, Glossy Laminates and Lacquer Glass finishes. Engineered for Indian cooking with water-resistant carcasses and soft-close mechanisms.",
     icon: "ChefHat",
     image: `${BASE_PATH}img/modular-kitchen.jpg`
   },
@@ -49,7 +49,7 @@ export const SERVICES: ServiceItem[] = [
   },
   {
     title: "TV Units",
-    description: "Contemporary floating and floor-standing TV units that hide wires and enhance your living room aesthetics. Available in stone, laminate, and duco finishes.",
+    description: "Contemporary floating and floor-standing TV units that hide wires and enhance your living room aesthetics.",
     icon: "Tv",
     image: `${BASE_PATH}img/tv-units.jpg`
   },
@@ -156,12 +156,12 @@ export const PROCESS_STEPS: ProcessItem[] = [
   {
     step: "02",
     title: "Design & Visualization",
-    description: "Our designers create detailed 3D renders. You get to visualize materials, colors, and layout before we cut a single board."
+    description: "Our designers create detailed 3D renders. You get to visualize materials, colors, and layout."
   },
   {
     step: "03",
     title: "Factory Manufacturing",
-    description: "Once approved, designs are sent to our factory. Using German machinery, we cut, edge-band, and finish modules with mm-level precision."
+    description: "Once approved, designs are sent to our factory. Using advanced machinery, we cut, edge-band, and finish modules with mm-level precision."
   },
   {
     step: "04",
