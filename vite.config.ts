@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
   return {
-    base: '/3L_INTERIO_Factory-Made/',
+    base: '/',
     plugins: [react()],
     define: {
       // Polyfill process.env.API_KEY for the Google GenAI SDK
