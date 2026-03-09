@@ -15,6 +15,7 @@
   "dependencies": {
     "@google/genai": "^1.38.0",
     "framer-motion": "^11.0.8",
+    "jimp": "^1.6.0",
     "lucide-react": "^0.344.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -23,7 +24,10 @@
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.27",
     "gh-pages": "^6.3.0",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^3.4.19",
     "typescript": "^5.2.2",
     "vite": "^5.2.0"
   }

@@ -10,11 +10,11 @@ const comparisonData = [
   {
     feature: "Edge Banding",
     factory: "Machine-pressed (Hot Glue) for waterproof seal.",
-    carpenter: "Hand-pasted (fevicol) - peels off over time."
+    carpenter: "Hand-pasted - peels off over time."
   },
   {
     feature: "Precision",
-    factory: "CNC cutting with 0.5mm tolerance.",
+    factory: "Cutting with 0.5mm tolerance.",
     carpenter: "Manual cutting, uneven gaps & misalignment."
   },
   {
@@ -29,7 +29,7 @@ const comparisonData = [
   },
   {
     feature: "Dust & Noise",
-    factory: "Zero. Installed in 2-3 days.",
+    factory: "Minimalistic.",
     carpenter: "Messy home for weeks. Dust everywhere."
   }
 ];

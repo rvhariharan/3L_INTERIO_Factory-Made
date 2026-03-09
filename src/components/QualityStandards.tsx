@@ -15,12 +15,12 @@ const standards = [
   {
     icon: Droplets,
     title: "Moisture Resistance",
-    desc: "Every exposed edge is sealed with Rehau edge bands using high-temperature glue to prevent water ingress."
+    desc: "Every exposed edge is sealed with high-temperature glue to prevent water ingress."
   },
   {
     icon: Hammer,
     title: "Hardware Stress Test",
-    desc: "Hinges and channels (Blum/Hettich) undergo a cycle test to ensure smooth operation for 10+ years."
+    desc: "Hinges and channels undergo a cycle test to ensure smooth operation for 10+ years."
   },
   {
     icon: ClipboardCheck,

@@ -70,9 +70,9 @@ export const SERVICES: ServiceItem[] = [
 export const WHY_CHOOSE_US: WhyChooseItem[] = [
   { title: "Factory-Made Precision", description: "Machine-cut accuracy ensures perfect alignment and superior finish compared to manual carpentry." },
   { title: "Engineering Background", description: "Founded by a Mechanical Engineer, ensuring structural integrity in every design." },
-  { title: "Premium Materials", description: "We use only high-grade Ply and MDF tailored to Theni's climate conditions." },
+  { title: "Premium Materials", description: "We use high-grade MDF Wood, Ply Wood, HDHMR, Boilo Sheets, UPVC, and Aluminium tailored to Theni's climate conditions." },
   { title: "End-to-End Service", description: "From 3D design to manufacturing and final installation, we handle everything." },
-  { title: "Trusted by Professionals", description: "The preferred choice for Engineers, Builders, and discerning Homeowners in Theni." },
+  { title: "Trusted by Professionals", description: "The preferred choice for Builders, Architects and Houseowners in Theni." },
   { title: "Showroom + Factory", description: "Visit our showroom to feel the finish and our factory to see the quality in making." },
   { title: "Timely Delivery", description: "Factory processes allow us to commit to and meet strict delivery timelines." },
   { title: "Professional Installation", description: "Trained technicians ensure a mess-free and perfect installation at your site." }
