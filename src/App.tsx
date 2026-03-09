@@ -91,7 +91,8 @@ function App() {
             <PageHeader
               title="Why Choose Us"
               subtitle="The Engineering Advantage"
-              backgroundImage="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070&auto=format&fit=crop"
+              backgroundImage="/img/Carpenter_Cutting_Wood_.jpg"
+              bgPosition="bottom"
             />
             <WhyChooseUs />
             <Comparison />
@@ -105,7 +106,8 @@ function App() {
             <PageHeader
               title="Our Portfolio"
               subtitle="Executed with Precision"
-              backgroundImage="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2053&auto=format&fit=crop"
+              backgroundImage="/img/Carpenter_Cutting_Wood_.jpg"
+              bgPosition="bottom"
             />
             <ProjectsGallery />
             <CTA />

@@ -5,17 +5,21 @@ interface PageHeaderProps {
   title: string;
   subtitle: string;
   backgroundImage: string;
+  bgPosition?: string;
 }
 
-const PageHeader: React.FC<PageHeaderProps> = ({ title, subtitle, backgroundImage }) => {
+const PageHeader: React.FC<PageHeaderProps> = ({ title, subtitle, backgroundImage, bgPosition = 'center' }) => {
   return (
     <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden bg-black">
       {/* Background Image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60"
-        style={{ backgroundImage: `url(${backgroundImage})` }}
+      <div
+        className="absolute inset-0 bg-cover bg-no-repeat opacity-60"
+        style={{
+          backgroundImage: `url(${backgroundImage})`,
+          backgroundPosition: bgPosition
+        }}
       />
-      
+
       {/* Overlay */}
       <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-black/60" />
 
