@@ -23,7 +23,10 @@ const brandPartners2 = [
 const SEOSection: React.FC = () => {
   return (
     <>
-      <section className="py-16 bg-gray-50 border-t border-gray-200 overflow-hidden relative">
+      {/* Hidden Sections */}
+      {false && (
+        <>
+          <section className="py-16 bg-gray-50 border-t border-gray-200 overflow-hidden relative">
         <style>
           {`
             @keyframes marqueeLeft {
@@ -162,6 +165,42 @@ const SEOSection: React.FC = () => {
               ))}
             </div>
           </div>
+        </div>
+      </section>
+        </>
+      )}
+
+      {/* Dealer of Benzo Plast Section */}
+      <section className="py-20 bg-[#050505] relative border-t border-white/5 overflow-hidden flex flex-col items-center justify-center">
+        {/* Glow Effects */}
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-secondary/10 rounded-full blur-[120px] pointer-events-none mix-blend-screen"></div>
+
+        <div className="container mx-auto px-4 text-center relative z-10 flex flex-col items-center">
+          <span className="text-secondary font-bold tracking-[0.25em] uppercase text-xs mb-3 block font-mono">
+            // AUTHORIZED PARTNER
+          </span>
+          <h2 className="text-3xl md:text-5xl font-extrabold text-white mb-12 uppercase tracking-tight">
+            Dealer of <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-yellow-500">Benzo Plast</span>
+          </h2>
+          
+          <div className="relative group p-[2px] rounded-2xl bg-gradient-to-r from-secondary/30 via-yellow-500/30 to-secondary/30 hover:from-secondary hover:via-yellow-400 hover:to-secondary transition-all duration-500 shadow-2xl shadow-secondary/10 hover:shadow-secondary/30">
+            <div className="bg-[#0a0a0a] rounded-xl overflow-hidden p-8 backdrop-blur-sm transition-all duration-500 group-hover:bg-[#111]">
+              <div className="relative flex items-center justify-center bg-white/5 rounded-lg p-4">
+                <img 
+                  src="https://5.imimg.com/data5/SELLER/Logo/2022/7/DU/XV/FV/81559413/benzo-1.jpg" 
+                  alt="Benzo Plast Logo" 
+                  className="w-48 h-auto md:w-64 object-contain filter drop-shadow-[0_0_15px_rgba(255,255,255,0.1)] transform group-hover:scale-105 transition-transform duration-500 rounded-[10px]"
+                />
+              </div>
+            </div>
+            {/* Corner styling accents */}
+            <div className="absolute -top-4 -left-4 w-8 h-8 border-t-2 border-l-2 border-secondary rounded-tl-lg scale-0 group-hover:scale-100 opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
+            <div className="absolute -bottom-4 -right-4 w-8 h-8 border-b-2 border-r-2 border-secondary rounded-br-lg scale-0 group-hover:scale-100 opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
+          </div>
+          
+          <p className="text-gray-400 max-w-xl mx-auto mt-12 text-sm md:text-base tracking-widest leading-relaxed uppercase border-b border-secondary/20 pb-4">
+            Delivering Premium Quality Materials
+          </p>
         </div>
       </section>
     </>

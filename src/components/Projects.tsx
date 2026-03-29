@@ -13,7 +13,9 @@ const Projects: React.FC = () => {
     : PROJECTS.filter(project => project.category === filter);
 
   return (
-    <section id="projects" className="py-24 bg-black relative overflow-hidden">
+    <>
+      {false && (
+        <section id="projects" className="py-24 bg-black relative overflow-hidden">
        {/* Background Accents */}
        <div className="absolute top-0 right-0 w-96 h-96 bg-secondary/5 rounded-full blur-3xl transform translate-x-1/2 -translate-y-1/2"></div>
        <div className="absolute bottom-0 left-0 w-96 h-96 bg-secondary/5 rounded-full blur-3xl transform -translate-x-1/2 translate-y-1/2"></div>
@@ -98,7 +100,9 @@ const Projects: React.FC = () => {
             </AnimatePresence>
           </motion.div>
        </div>
-    </section>
+        </section>
+      )}
+    </>
   );
 };
 

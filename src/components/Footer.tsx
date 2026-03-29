@@ -81,11 +81,11 @@ const Footer: React.FC<NavProps> = ({ onNavigate }) => {
         </div>
       </div>
       <div className="border-t border-white/5 py-8">
-        <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-xs text-gray-600">
+        <div className="container mx-auto px-4 flex flex-col md:flex-row justify-center items-center gap-4 md:gap-[50%] text-xs text-gray-600">
           <p>&copy; {new Date().getFullYear()} 3L Interio. All Rights Reserved.</p>
-          <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="hover:text-secondary">Privacy Policy</a>
-            <a href="#" className="hover:text-secondary">Terms of Service</a>
+          
+          <div className="flex mt-2 md:mt-0">
+            <a href="https://navipromotions.in/" target="_blank" rel="noopener noreferrer" className="hover:text-secondary transition-colors">Powered by <span className="text-accent">Navi Promotions</span></a>
           </div>
         </div>
       </div>

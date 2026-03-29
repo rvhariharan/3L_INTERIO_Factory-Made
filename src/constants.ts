@@ -31,7 +31,7 @@ export const BASE_PATH = import.meta.env.BASE_URL;
 export const SERVICES: ServiceItem[] = [
   {
     title: "Modular Kitchen",
-    description: "Ergonomic designs featuring Acrylic, Veneer, Glossy Laminates and Lacquer Glass finishes. Engineered for Indian cooking with water-resistant carcasses and soft-close mechanisms.",
+    description: "Ergonomic designs featuring Acrylic, Veneer, Glossy Laminates, Lacquer Glass, UPVC and Aluminium finishes. Engineered for Indian cooking with water-resistant carcasses and soft-close mechanisms.",
     icon: "ChefHat",
     image: `${BASE_PATH}img/modular-kitchen.jpg`
   },
@@ -43,7 +43,7 @@ export const SERVICES: ServiceItem[] = [
   },
   {
     title: "Storage Cot",
-    description: "Heavy-duty hydraulic storage cots designed for comfort and maximum utility. Built with high-grade Ply/MDF and premium hydraulic pumps for easy lifting.",
+    description: "Heavy-duty hydraulic storage cots designed for comfort and maximum utility. Built with high-grade Plywood and premium hydraulic pumps for easy lifting.",
     icon: "BedDouble",
     image: `${BASE_PATH}img/storage-cot.jpg`
   },

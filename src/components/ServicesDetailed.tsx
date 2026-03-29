@@ -51,11 +51,11 @@ const ServicesDetailed: React.FC = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="flex items-center space-x-3 text-sm text-gray-700">
                   <Check className="w-4 h-4 text-green-600" />
-                  <span>Premium Finish</span>
+                  <span>Elegant Finish</span>
                 </div>
                 <div className="flex items-center space-x-3 text-sm text-gray-700">
                   <Check className="w-4 h-4 text-green-600" />
-                  <span>5-Year Warranty</span>
+                  <span>Premium Quality</span>
                 </div>
                 <div className="flex items-center space-x-3 text-sm text-gray-700">
                   <Check className="w-4 h-4 text-green-600" />
