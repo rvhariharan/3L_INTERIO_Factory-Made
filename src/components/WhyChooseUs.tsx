@@ -43,7 +43,7 @@ const WhyChooseUs: React.FC = () => {
                 <img
                   src="/img/Carpenter_Cutting_Wood_.jpg"
                   alt="Engineering Precision"
-                  className="w-full h-full object-cover object-bottom filter grayscale contrast-125 group-hover:grayscale-0 transition-all duration-700"
+                  className="w-full h-full object-cover object-bottom transition-all duration-700 hover:scale-105"
                 />
               </div>
 

@@ -42,7 +42,7 @@ const Services: React.FC = () => {
                 <img
                   src={service.image}
                   alt={service.title}
-                  className="w-full h-full object-cover transform filter grayscale opacity-90 transition-all duration-700 ease-in-out group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-110"
+                  className="w-full h-full object-cover transform transition-all duration-700 ease-in-out group-hover:scale-110"
                 />
                 <div className="absolute top-4 right-4 bg-secondary/90 backdrop-blur text-black p-3 rounded-none shadow-lg z-20">
                   {iconMap[service.icon]}

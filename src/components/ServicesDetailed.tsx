@@ -29,7 +29,7 @@ const ServicesDetailed: React.FC = () => {
                 <img
                   src={service.image}
                   alt={service.title}
-                  className="w-full h-full object-cover transform filter grayscale opacity-90 transition-all duration-700 ease-in-out group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-110"
+                  className="w-full h-full object-cover transform transition-all duration-700 ease-in-out group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-500 pointer-events-none"></div>
               </div>

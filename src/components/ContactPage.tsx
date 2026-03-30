@@ -134,7 +134,7 @@ const ContactPage: React.FC = () => {
                     style={{ border: 0 }} 
                     allowFullScreen={true} 
                     loading="lazy"
-                    className="grayscale group-hover:grayscale-0 transition-all duration-700"
+                    className="transition-all duration-700 hover:opacity-90 hover:scale-105"
                     title="3L Interio Location"
                 ></iframe>
                 

@@ -17,7 +17,7 @@ const About: React.FC = () => {
                             <img
                                 src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80"
                                 alt="3L Interio Showroom"
-                                className="w-full h-[500px] object-cover filter grayscale group-hover:grayscale-0 transition-all duration-700"
+                                className="w-full h-[500px] object-cover transition-all duration-700 hover:scale-105"
                             />
                             <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-all duration-500"></div>
                         </div>

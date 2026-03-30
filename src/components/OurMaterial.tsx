@@ -2,23 +2,23 @@ import React from 'react';
 
 const materials = [
     {
-        name: "MDF Wood",
-        image: "img/mofwood.jpeg",
+        name: "Pre-engineered Wood",
+        image: "img/Plywood.jpeg",
         description: "High-density precision board engineered for seamless finish and consistent strength."
     },
     {
-        name: "Ply Wood",
-        image: "img/Plywood.jpeg",
-        description: "Premium boiling waterproof plywood, built for extreme durability and layered structural integrity."
+        name: "Plywood",
+        image: "img/675461b3e319d83559df2c90fcc98cba.jpg",
+        description: "Premium moisture resistance (MR Grade), Boiling Water resistance (BWR Grade), and Boiling waterproof plywood (BWP Grade), built for extreme durability and layered structural integrity."
     },
     {
         name: "HDHMR",
-        image: "img/hdhmr.jpeg",
+        image: "img/HDHMR-Green-Board..jpg",
         description: "High-Density High Moisture Resistance boards, the absolute pinnacle for wet areas."
     },
     {
         name: "Boilo Sheets",
-        image: "img/boilo.jpeg",
+        image: "img/Untitled_design__6_-removebg-preview.png",
         description: "Advanced fire-retardant and boiling water-proof engineered sheets for maximum safety."
     },
     {
@@ -28,7 +28,7 @@ const materials = [
     },
     {
         name: "Aluminium",
-        image: "img/aluminium.jpeg",
+        image: "img/Blog_banner_73066.png",
         description: "Sleek, lightweight, and rust-proof metal framing for modern, industrial-grade aesthetics."
     }
 ];
@@ -59,12 +59,12 @@ const OurMaterial: React.FC = () => {
                             >
                                 {/* Image Container */}
                                 <div className="w-full lg:w-1/2 relative overflow-hidden rounded-sm shadow-2xl">
-                                    {/* Image with grayscale effect by default, color and zoom on hover */}
-                                    <div className="overflow-hidden bg-black w-full h-[350px] md:h-[450px]">
+                                    {/* Image with subtle hover animation */}
+                                    <div className="overflow-hidden bg-transparent w-full h-[350px] md:h-[450px]">
                                         <img
                                             src={material.image}
                                             alt={material.name}
-                                            className="w-full h-full object-cover filter grayscale opacity-90 transition-all duration-700 ease-in-out transform scale-100 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-110"
+                                            className="w-full h-full object-cover transition-all duration-700 ease-in-out transform scale-100 group-hover:scale-110"
                                         />
                                     </div>
                                     {/* Inner subtle border */}
