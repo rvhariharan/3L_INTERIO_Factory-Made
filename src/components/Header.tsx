@@ -34,8 +34,8 @@ const Header: React.FC<NavProps> = ({ currentView, onNavigate }) => {
     <>
       <header
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-in-out ${isScrolled || currentView !== 'home'
-            ? 'bg-black/90 backdrop-blur-md py-4 border-b border-white/10 shadow-2xl'
-            : 'bg-gradient-to-b from-black/80 to-transparent py-6 border-b border-transparent'
+            ? 'bg-black py-4 border-b border-white/10 shadow-2xl'
+            : 'bg-black py-6 border-b border-transparent'
           }`}
       >
         <div className="container mx-auto px-4 md:px-6 flex justify-between items-center">
