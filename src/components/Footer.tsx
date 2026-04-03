@@ -17,10 +17,10 @@ const Footer: React.FC<NavProps> = ({ onNavigate }) => {
               The premier destination for factory-made interiors in Theni. Engineering precision meets aesthetic design for your home and office.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-secondary hover:text-black transition-all">
+              <a href={CONTACT_INFO.instagram} target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-secondary hover:text-black transition-all">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-secondary hover:text-black transition-all">
+              <a href={CONTACT_INFO.facebook} target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-secondary hover:text-black transition-all">
                 <Facebook className="w-5 h-5" />
               </a>
             </div>
@@ -61,7 +61,10 @@ const Footer: React.FC<NavProps> = ({ onNavigate }) => {
               </li>
               <li className="flex items-center">
                 <Phone className="w-5 h-5 text-secondary mr-4 flex-shrink-0" />
-                <a href={`tel:${CONTACT_INFO.phone}`} className="hover:text-white transition-colors text-white font-semibold">{CONTACT_INFO.phone}</a>
+                <div className="flex flex-col">
+                  <a href={`tel:${CONTACT_INFO.phone.replace(/\s+/g, '')}`} className="hover:text-white transition-colors text-white font-semibold">{CONTACT_INFO.phone}</a>
+                  <a href={`tel:${CONTACT_INFO.phone2.replace(/\s+/g, '')}`} className="hover:text-white transition-colors text-white font-semibold">{CONTACT_INFO.phone2}</a>
+                </div>
               </li>
               <li className="flex items-center">
                 <Mail className="w-5 h-5 text-secondary mr-4 flex-shrink-0" />

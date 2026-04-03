@@ -1,8 +1,43 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Phone, Mail, MapPin, Clock, Send, ArrowRight } from 'lucide-react';
 import { CONTACT_INFO } from '../constants';
 
 const ContactPage: React.FC = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    phone: '',
+    email: '',
+    projectType: 'Modular Kitchen',
+    message: ''
+  });
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({
+      ...prev,
+      [name]: value
+    }));
+  };
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    const { name, phone, email, projectType, message } = formData;
+    
+    // Construct the email body
+    const emailBody = `Name: ${name}
+Phone: ${phone}
+Email: ${email}
+Project Type: ${projectType}
+
+Message:
+${message}`;
+
+    const mailtoLink = `mailto:${CONTACT_INFO.email}?subject=New Inquiry from ${name}&body=${encodeURIComponent(emailBody)}`;
+    
+    // Open the default mail client
+    window.location.href = mailtoLink;
+  };
+
   return (
     <section className="bg-white min-h-screen">
       <div className="container mx-auto px-4 py-24">
@@ -21,22 +56,30 @@ const ContactPage: React.FC = () => {
               Ready to upgrade to factory-made precision? Fill out the form below, and our engineering team will get back to you with a consultation slot.
             </p>
 
-            <form className="space-y-6">
+            <form className="space-y-6" onSubmit={handleSubmit}>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <label className="text-xs font-bold uppercase tracking-wider text-gray-500">Full Name</label>
                   <input 
                     type="text" 
+                    name="name"
+                    required
+                    value={formData.name}
+                    onChange={handleChange}
                     className="w-full bg-gray-50 border border-gray-200 p-4 rounded-sm focus:outline-none focus:border-secondary transition-colors"
-                    placeholder="John Doe"
+                    placeholder="Hariharan"
                   />
                 </div>
                 <div className="space-y-2">
                   <label className="text-xs font-bold uppercase tracking-wider text-gray-500">Phone Number</label>
                   <input 
                     type="tel" 
+                    name="phone"
+                    required
+                    value={formData.phone}
+                    onChange={handleChange}
                     className="w-full bg-gray-50 border border-gray-200 p-4 rounded-sm focus:outline-none focus:border-secondary transition-colors"
-                    placeholder="+91 98765 43210"
+                    placeholder="+91 90925 66802"
                   />
                 </div>
               </div>
@@ -45,14 +88,23 @@ const ContactPage: React.FC = () => {
                 <label className="text-xs font-bold uppercase tracking-wider text-gray-500">Email Address</label>
                 <input 
                   type="email" 
+                  name="email"
+                  required
+                  value={formData.email}
+                  onChange={handleChange}
                   className="w-full bg-gray-50 border border-gray-200 p-4 rounded-sm focus:outline-none focus:border-secondary transition-colors"
-                  placeholder="john@example.com"
+                  placeholder="hari@gmail.com"
                 />
               </div>
 
               <div className="space-y-2">
                 <label className="text-xs font-bold uppercase tracking-wider text-gray-500">Project Type</label>
-                <select className="w-full bg-gray-50 border border-gray-200 p-4 rounded-sm focus:outline-none focus:border-secondary transition-colors text-gray-600">
+                <select 
+                  name="projectType"
+                  value={formData.projectType}
+                  onChange={handleChange}
+                  className="w-full bg-gray-50 border border-gray-200 p-4 rounded-sm focus:outline-none focus:border-secondary transition-colors text-gray-600"
+                >
                   <option>Modular Kitchen</option>
                   <option>Full Home Interior</option>
                   <option>Wardrobes</option>
@@ -64,6 +116,10 @@ const ContactPage: React.FC = () => {
               <div className="space-y-2">
                 <label className="text-xs font-bold uppercase tracking-wider text-gray-500">Message</label>
                 <textarea 
+                  name="message"
+                  required
+                  value={formData.message}
+                  onChange={handleChange}
                   rows={4}
                   className="w-full bg-gray-50 border border-gray-200 p-4 rounded-sm focus:outline-none focus:border-secondary transition-colors"
                   placeholder="Tell us about your requirements..."
@@ -90,7 +146,10 @@ const ContactPage: React.FC = () => {
                   </div>
                   <h4 className="font-bold text-primary mb-1">Call Us</h4>
                   <p className="text-gray-500 text-sm mb-2">Mon-Sat, 9am - 7pm</p>
-                  <a href={`tel:${CONTACT_INFO.phone}`} className="text-lg font-bold text-primary hover:text-secondary transition-colors">{CONTACT_INFO.phone}</a>
+                  <div className="flex flex-col">
+                    <a href={`tel:${CONTACT_INFO.phone.replace(/\s+/g, '')}`} className="text-lg font-bold text-primary hover:text-secondary transition-colors">{CONTACT_INFO.phone}</a>
+                    <a href={`tel:${CONTACT_INFO.phone2.replace(/\s+/g, '')}`} className="text-lg font-bold text-primary hover:text-secondary transition-colors">{CONTACT_INFO.phone2}</a>
+                  </div>
                </div>
 
                <div className="bg-gray-50 p-8 border border-gray-100 hover:border-secondary/30 transition-colors group">
@@ -99,7 +158,7 @@ const ContactPage: React.FC = () => {
                   </div>
                   <h4 className="font-bold text-primary mb-1">Email Us</h4>
                   <p className="text-gray-500 text-sm mb-2">For quotes & inquiries</p>
-                  <a href={`mailto:${CONTACT_INFO.email}`} className="text-lg font-bold text-primary hover:text-secondary transition-colors truncate block">{CONTACT_INFO.email}</a>
+                  <a href={`mailto:${CONTACT_INFO.email}`} className="text-md font-bold text-primary hover:text-secondary transition-colors truncate block">{CONTACT_INFO.email}</a>
                </div>
 
                <div className="col-span-1 md:col-span-2 bg-primary text-white p-8 relative overflow-hidden group">

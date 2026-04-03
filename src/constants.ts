@@ -171,8 +171,12 @@ export const PROCESS_STEPS: ProcessItem[] = [
 ];
 
 export const CONTACT_INFO = {
-  phone: "+91 98765 43210", // Placeholder
-  email: "contact@3linterio.com",
-  address: "3L Interio, Main Road, Theni, Tamil Nadu 625531",
-  mapLink: "https://maps.google.com"
+  phone: "+91 90925 66802",
+  phone2: "+91 86677 89929",
+  email: "theni3linterio@gmail.com",
+  website: "www.3linterio.in",
+  address: "3L Enterprizes, TS no. 26/4, Block no. 16, Muthulapuram Main Road, Chinnamanur, Theni - 625515",
+  instagram: "https://instagram.com/3linterio_theni",
+  facebook: "https://facebook.com/3linterio_theni",
+  mapLink: "https://maps.google.com/?q=3L+Enterprizes,+Muthulapuram+Main+Road,+Chinnamanur,+Theni+-+625515"
 };

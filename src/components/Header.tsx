@@ -64,12 +64,12 @@ const Header: React.FC<NavProps> = ({ currentView, onNavigate }) => {
             <div className="w-px h-6 bg-white/20"></div>
 
             <div className="flex items-center space-x-4">
-              <a href="#" className="text-gray-400 hover:text-secondary transition-colors"><Instagram className="w-4 h-4" /></a>
-              <a href="#" className="text-gray-400 hover:text-secondary transition-colors"><Facebook className="w-4 h-4" /></a>
+              <a href={CONTACT_INFO.instagram} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-secondary transition-colors"><Instagram className="w-4 h-4" /></a>
+              <a href={CONTACT_INFO.facebook} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-secondary transition-colors"><Facebook className="w-4 h-4" /></a>
             </div>
 
             <a
-              href={`tel:${CONTACT_INFO.phone}`}
+              href={`tel:${CONTACT_INFO.phone.replace(/\s+/g, '')}`}
               className="flex items-center bg-secondary hover:bg-white text-primary hover:text-primary px-5 py-2.5 rounded-sm transition-all duration-300 font-bold tracking-wide uppercase text-xs shadow-[0_0_15px_rgba(251,191,36,0.3)] hover:shadow-[0_0_20px_rgba(255,255,255,0.4)]"
             >
               <Phone className="w-3 h-3 mr-2" />
@@ -115,15 +115,15 @@ const Header: React.FC<NavProps> = ({ currentView, onNavigate }) => {
 
         <div className="mt-12 flex flex-col items-center space-y-6 z-10">
           <a
-            href={`tel:${CONTACT_INFO.phone}`}
+            href={`tel:${CONTACT_INFO.phone.replace(/\s+/g, '')}`}
             className="flex items-center justify-center text-primary bg-secondary px-8 py-3 font-bold uppercase tracking-widest rounded-sm"
           >
             <Phone className="w-5 h-5 mr-2" />
             Call Now
           </a>
           <div className="flex space-x-6">
-            <a href="#" className="text-gray-400 hover:text-secondary transition-colors"><Instagram className="w-6 h-6" /></a>
-            <a href="#" className="text-gray-400 hover:text-secondary transition-colors"><Facebook className="w-6 h-6" /></a>
+            <a href={CONTACT_INFO.instagram} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-secondary transition-colors"><Instagram className="w-6 h-6" /></a>
+            <a href={CONTACT_INFO.facebook} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-secondary transition-colors"><Facebook className="w-6 h-6" /></a>
           </div>
         </div>
       </div>

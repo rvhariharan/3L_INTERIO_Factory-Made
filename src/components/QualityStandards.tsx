@@ -56,7 +56,6 @@ const QualityStandards: React.FC = () => {
               <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform border border-white/10 group-hover:border-secondary">
                 <item.icon className="w-5 h-5 text-secondary" />
               </div>
-              <div className="text-4xl font-black text-white/5 absolute top-4 right-4 group-hover:text-secondary/10 transition-colors">0{idx + 1}</div>
               <h3 className="text-lg font-bold text-white mb-3">{item.title}</h3>
               <p className="text-sm text-gray-400 leading-relaxed">{item.desc}</p>
             </div>
