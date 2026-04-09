@@ -43,8 +43,8 @@ const Footer: React.FC<NavProps> = ({ onNavigate }) => {
           <div>
             <h4 className="text-white font-bold mb-6 tracking-wide uppercase text-sm">Our Expertise</h4>
             <ul className="space-y-3 text-sm">
-              <li><button onClick={() => onNavigate('services', 'top')} className="hover:text-secondary transition-colors text-left">Factory-Made Interiors</button></li>
-              <li><button onClick={() => onNavigate('services', 'top')} className="hover:text-secondary transition-colors text-left">Precision Engineering</button></li>
+              <li><button onClick={() => onNavigate('services', 'top')} className="hover:text-secondary transition-colors text-left">Upvc interior</button></li>
+              <li><button onClick={() => onNavigate('services', 'top')} className="hover:text-secondary transition-colors text-left">Aluminium interior</button></li>
               <li><button onClick={() => onNavigate('services', 'top')} className="hover:text-secondary transition-colors text-left">Commercial Projects</button></li>
               <li><button onClick={() => onNavigate('services', 'top')} className="hover:text-secondary transition-colors text-left">Custom Furniture</button></li>
               <li><button onClick={() => onNavigate('services', 'top')} className="hover:text-secondary transition-colors text-left">Interior Design Consultation</button></li>

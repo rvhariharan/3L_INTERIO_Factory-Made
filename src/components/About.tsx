@@ -137,7 +137,7 @@ const About: React.FC = () => {
                             {/* Image Container */}
                             <div className="relative z-10 overflow-hidden rounded-sm shadow-2xl border-2 border-white/10 group-hover:border-secondary/50 transition-colors duration-500">
                                 <img
-                                    src={`${import.meta.env.BASE_URL}img/Metal-construction.jpeg`}
+                                    src="https://media.gettyimages.com/id/1660028846/photo/employees-cut-sections-of-plywood-for-use-in-a-modular-house-at-the-tophat-factory-in-foston.jpg?s=612x612&w=0&k=20&c=bXz_g6h_2IhXJeTdyFHxqZOrxqPMnxrJH-qCULEkqQI="
                                     alt="Factory Machinery"
                                     className="w-full h-auto object-cover transform scale-100 group-hover:scale-110 transition-transform duration-700 ease-in-out"
                                 />

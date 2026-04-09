@@ -12,7 +12,7 @@ const Logo: React.FC<LogoProps> = ({ className = "", variant = 'light' }) => {
     <div className={`flex items-center gap-3 ${className}`}>
       {/* Logo Image */}
       <img
-        src="/logo/33L_HD_logo_cropped.jpg"
+        src="/logo/3L%20INTERIO-01.png"
         alt="3L Interio Logo"
         className="w-48 sm:w-56 lg:w-64 h-auto max-h-16 object-contain flex-shrink-0 rounded-sm"
       />
