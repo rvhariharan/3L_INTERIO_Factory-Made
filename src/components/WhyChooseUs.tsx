@@ -41,7 +41,7 @@ const WhyChooseUs: React.FC = () => {
               <div className="relative h-[600px] w-full overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent z-10 opacity-60"></div>
                 <img
-                  src="/img/Carpenter_Cutting_Wood_.jpg"
+                  src="img/WhatsApp Image 2026-04-13 at 8.51.16 PM.jpeg"
                   alt="Engineering Precision"
                   className="w-full h-full object-cover object-bottom transition-all duration-700 hover:scale-105"
                 />

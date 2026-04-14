@@ -2,7 +2,7 @@ import React from 'react';
 
 const materials = [
     {
-        name: "Pre-engineered Wood",
+        name: "Pre-Engineered Wood",
         image: "img/Plywood.jpeg",
         description: "High-density precision board engineered for seamless finish and consistent strength."
     },
