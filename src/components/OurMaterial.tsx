@@ -23,12 +23,12 @@ const materials = [
     },
     {
         name: "UPVC",
-        image: "img/uPVC.jpeg",
+        image: "img/upvc_new.jpeg",
         description: "Unplasticized Polyvinyl Chloride offering unmatched weather resistance and zero maintenance."
     },
     {
         name: "Aluminium",
-        image: "img/Blog_banner_73066.png",
+        image: "img/aluminium_new.jpeg",
         description: "Sleek, lightweight, and rust-proof metal framing for modern, industrial-grade aesthetics."
     }
 ];

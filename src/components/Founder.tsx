@@ -1,5 +1,6 @@
 import React from 'react';
 import { Award, Briefcase, GraduationCap, Quote } from 'lucide-react';
+import { motion } from 'framer-motion';
 
 const Founder: React.FC = () => {
   return (
@@ -12,9 +13,17 @@ const Founder: React.FC = () => {
              {/* Abstract BG */}
              <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-secondary to-transparent"></div>
              
-             <div className="w-40 h-40 bg-dark-surface rounded-full border-4 border-secondary/30 mb-6 flex items-center justify-center relative z-10 shadow-2xl">
-                <Award className="w-16 h-16 text-secondary" />
-             </div>
+             <motion.div 
+               className="w-40 h-40 bg-dark-surface rounded-full border-4 border-secondary/30 mb-6 flex items-center justify-center relative z-10 shadow-2xl overflow-hidden group"
+               animate={{ y: [0, -10, 0] }}
+               transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+             >
+                <img 
+                  src="img/owner_img.jpeg" 
+                  alt="Er. Sivaraj Paulpandian" 
+                  className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110 group-hover:rotate-3" 
+                />
+             </motion.div>
              
              <h3 className="text-2xl font-bold tracking-wide relative z-10">Er. Sivaraj Paulpandian</h3>
              <p className="text-secondary text-sm font-medium tracking-widest uppercase mt-2 relative z-10">Founder</p>
