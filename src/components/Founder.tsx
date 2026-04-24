@@ -21,7 +21,7 @@ const Founder: React.FC = () => {
                 <img 
                   src="img/owner_img.jpeg" 
                   alt="Er. Sivaraj Paulpandian" 
-                  className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110 group-hover:rotate-3" 
+                  className="w-full h-full object-fill transition-transform duration-700 ease-out group-hover:scale-105" 
                 />
              </motion.div>
              

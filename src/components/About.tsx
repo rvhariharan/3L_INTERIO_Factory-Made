@@ -71,32 +71,32 @@ const About: React.FC = () => {
                         <div className="hidden md:block absolute top-1/2 left-0 w-full h-0.5 bg-gray-200 -z-10 transform -translate-y-1/2"></div>
 
                         {/* 2015 */}
-                        <div className="bg-gray-50 p-8 border border-gray-100 relative group hover:-translate-y-2 transition-transform duration-300">
-                            <div className="w-12 h-12 bg-primary text-secondary flex items-center justify-center font-bold rounded-full border-4 border-white shadow-lg mx-auto mb-6 relative z-10">2015</div>
+                        <div className="bg-gray-100 p-8 border border-gray-100 relative group hover:bg-black hover:-translate-y-2 transition-all duration-300">
+                            <div className="w-12 h-12 bg-primary group-hover:bg-secondary group-hover:text-primary text-secondary flex items-center justify-center font-bold rounded-full border-4 border-white group-hover:border-black shadow-lg mx-auto mb-6 relative z-10 transition-colors duration-300">2015</div>
                             <div className="text-center">
                                 <PenTool className="w-8 h-8 text-secondary mx-auto mb-4" />
-                                <h4 className="text-xl font-bold mb-2">Inception</h4>
-                                <p className="text-gray-600 text-sm">Started as a dedicated team of interior contractors in Theni, focusing on quality craftsmanship.</p>
+                                <h4 className="text-xl font-black mb-2 text-primary group-hover:text-white transition-colors duration-300">Inception</h4>
+                                <p className="text-gray-600 text-lg group-hover:text-gray-300 transition-colors duration-300">Started as a dedicated team of interior contractors in Theni, focusing on quality craftsmanship.</p>
                             </div>
                         </div>
 
                         {/* 2018 */}
-                        <div className="bg-primary text-white p-8 border border-gray-800 relative group hover:-translate-y-2 transition-transform duration-300 shadow-2xl transform scale-105">
-                            <div className="w-12 h-12 bg-secondary text-primary flex items-center justify-center font-bold rounded-full border-4 border-primary shadow-lg mx-auto mb-6 relative z-10">2018</div>
+                        <div className="bg-gray-100 p-8 border border-gray-100 relative group hover:bg-black hover:-translate-y-2 transition-all duration-300 z-10">
+                            <div className="w-12 h-12 bg-primary group-hover:bg-secondary group-hover:text-primary text-secondary flex items-center justify-center font-bold rounded-full border-4 border-white group-hover:border-black shadow-lg mx-auto mb-6 relative z-10 transition-colors duration-300">2018</div>
                             <div className="text-center">
                                 <Factory className="w-8 h-8 text-secondary mx-auto mb-4" />
-                                <h4 className="text-xl font-bold mb-2 text-secondary">Factory Setup</h4>
-                                <p className="text-gray-300 text-sm">Established our own manufacturing unit with high-end machinery for ply & MDF processing.</p>
+                                <h4 className="text-xl font-black mb-2 text-primary group-hover:text-white transition-colors duration-300">Factory Setup</h4>
+                                <p className="text-gray-600 text-lg group-hover:text-gray-300 transition-colors duration-300">Established our own manufacturing unit with high-end machinery for ply & MDF processing.</p>
                             </div>
                         </div>
 
                         {/* 2024 */}
-                        <div className="bg-gray-50 p-8 border border-gray-100 relative group hover:-translate-y-2 transition-transform duration-300">
-                            <div className="w-12 h-12 bg-primary text-secondary flex items-center justify-center font-bold rounded-full border-4 border-white shadow-lg mx-auto mb-6 relative z-10">2024</div>
+                        <div className="bg-gray-100 p-8 border border-gray-100 relative group hover:bg-black hover:-translate-y-2 transition-all duration-300">
+                            <div className="w-12 h-12 bg-primary group-hover:bg-secondary group-hover:text-primary text-secondary flex items-center justify-center font-bold rounded-full border-4 border-white group-hover:border-black shadow-lg mx-auto mb-6 relative z-10 transition-colors duration-300">2024</div>
                             <div className="text-center">
                                 <Building2 className="w-8 h-8 text-secondary mx-auto mb-4" />
-                                <h4 className="text-xl font-bold mb-2">Grand Showroom</h4>
-                                <p className="text-gray-600 text-sm">Launched our exclusive experience center in Theni for clients to touch and feel our quality.</p>
+                                <h4 className="text-xl font-black mb-2 text-primary group-hover:text-white transition-colors duration-300">Grand Showroom</h4>
+                                <p className="text-gray-600 text-lg group-hover:text-gray-300 transition-colors duration-300">Launched our exclusive experience center in Theni for clients to touch and feel our quality.</p>
                             </div>
                         </div>
                     </div>

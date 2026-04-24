@@ -3,12 +3,12 @@ import React from 'react';
 const materials = [
     {
         name: "Pre-Engineered Wood",
-        image: "img/Plywood.jpeg",
+        image: "img/675461b3e319d83559df2c90fcc98cba.jpg",
         description: "High-density precision board engineered for seamless finish and consistent strength."
     },
     {
         name: "Plywood",
-        image: "img/675461b3e319d83559df2c90fcc98cba.jpg",
+        image: "img/Plywood.jpeg",
         description: "Premium moisture resistance (MR Grade), Boiling Water resistance (BWR Grade), and Boiling waterproof plywood (BWP Grade), built for extreme durability and layered structural integrity."
     },
     {
