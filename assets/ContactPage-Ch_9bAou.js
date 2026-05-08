@@ -1,4 +1,4 @@
-import{r as p,j as e,d as u,a as g,C as s,e as b,M as y}from"./index-yDuc79H3.js";import{A as f}from"./arrow-right-BfhOsXxA.js";import{C as j}from"./clock-CXQr8imz.js";const k=()=>{const[r,i]=p.useState({name:"",phone:"",email:"",projectType:"Modular Kitchen",message:""}),a=o=>{const{name:t,value:l}=o.target;i(n=>({...n,[t]:l}))},c=o=>{o.preventDefault();const{name:t,phone:l,email:n,projectType:d,message:m}=r,x=`Name: ${t}
+import{r as p,j as e,e as u,b as g,C as s,f as b,M as y}from"./index-BUBFG7d5.js";import{A as f}from"./arrow-right-B2Ql_xmi.js";import{C as j}from"./clock-ktI-8Kf4.js";const k=()=>{const[r,i]=p.useState({name:"",phone:"",email:"",projectType:"Modular Kitchen",message:""}),a=o=>{const{name:t,value:l}=o.target;i(n=>({...n,[t]:l}))},c=o=>{o.preventDefault();const{name:t,phone:l,email:n,projectType:d,message:m}=r,x=`Name: ${t}
 Phone: ${l}
 Email: ${n}
 Project Type: ${d}
