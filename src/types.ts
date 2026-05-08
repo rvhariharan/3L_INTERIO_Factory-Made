@@ -35,8 +35,11 @@ export interface TestimonialItem {
   id: number;
   name: string;
   projectType: string;
-  location: string;
-  quote: string;
+  location?: string;
+  quote?: string;
+  image?: string;
+  phone?: string;
+  company?: string;
 }
 
 export interface ProjectItem {

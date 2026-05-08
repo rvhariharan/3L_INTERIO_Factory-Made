@@ -102,6 +102,97 @@ export const TESTIMONIALS: TestimonialItem[] = [
   }
 ];
 
+export const PARTNERS: TestimonialItem[] = [
+  {
+    id: 1,
+    name: "Mr. SARAVANAN",
+    projectType: "DSA",
+    company: "LOAN",
+    phone: "99446 49905",
+    quote: "As a builder, I appreciate their adherence to timelines. The factory-made partitions and workstations were installed quickly without the usual mess of onsite carpentry."
+  },
+  {
+    id: 2,
+    name: "Mr. JAHIR USEN",
+    projectType: "BUILDING DOCTOR",
+    company: "RMC GROUPS",
+    phone: "9489141122",
+    quote: "We wanted a modern acrylic kitchen, and 3L Interio delivered exactly that. The precision in the cabinets and the smooth finish is amazing. The team was very professional."
+  },
+  {
+    id: 3,
+    name: "Mr. NANTHAKUMAR",
+    projectType: "SPORTS GOODS",
+    company: "FLICKS SPORTS",
+    phone: "91761 14210",
+    quote: "The factory finish is visibly superior to the carpentry work I had in my previous home. 3L Interio's engineering approach meant everything fit perfectly. Highly recommended for durability."
+  },
+  {
+    id: 4,
+    name: "Mr. MUTHUVIGNESH",
+    projectType: "CIVIL ENGINEER",
+    company: "MUTHU CONSTRUCTIONS",
+    phone: "7010735073",
+    quote: "As a builder, I appreciate their adherence to timelines. The factory-made partitions and workstations were installed quickly without the usual mess of onsite carpentry."
+  },
+  {
+    id: 5,
+    name: "Mr. KATHIRESAN",
+    projectType: "GENERAL INSURANCE",
+    company: "SKP GENERAL INSURANCE",
+    phone: "95855 40900",
+    quote: "We wanted a modern acrylic kitchen, and 3L Interio delivered exactly that. The precision in the cabinets and the smooth finish is amazing. The team was very professional."
+  },
+  {
+    id: 6,
+    name: "Mr. MYDEEN AK",
+    projectType: "CONSTRUCTION MATERIALS",
+    company: "AK GROUP OF COMPANIES",
+    phone: "93622 25555",
+    quote: "The factory finish is visibly superior to the carpentry work I had in my previous home. 3L Interio's engineering approach meant everything fit perfectly. Highly recommended for durability."
+  },
+  {
+    id: 7,
+    name: "Mr. VIGNESHRAJA R",
+    projectType: "CAR DETAILING",
+    company: "ALPHA CAR DETAILING",
+    phone: "97319 33300",
+    quote: "As a builder, I appreciate their adherence to timelines. The factory-made partitions and workstations were installed quickly without the usual mess of onsite carpentry."
+  },
+  {
+    id: 8,
+    name: "Mr. MUTHU VISHNU M",
+    projectType: "REAL ESTATE",
+    company: "SRI LAKSHMI NARAYANA ESTATE PVT. LTD.",
+    phone: "96639 04696",
+    quote: "We wanted a modern acrylic kitchen, and 3L Interio delivered exactly that. The precision in the cabinets and the smooth finish is amazing. The team was very professional."
+  },
+  {
+    id: 9,
+    name: "Mr. SIVASANKAR C",
+    projectType: "PRINTING",
+    company: "YESTEAM PRESS & FLEX",
+    phone: "98946 02123",
+    quote: "The factory finish is visibly superior to the carpentry work I had in my previous home. 3L Interio's engineering approach meant everything fit perfectly. Highly recommended for durability."
+  },
+  {
+    id: 10,
+    name: "Mr. REVANTH",
+    projectType: "VEGETABLE",
+    company: "MRV VEGETABLES",
+    phone: "93606 20129",
+    quote: "As a builder, I appreciate their adherence to timelines. The factory-made partitions and workstations were installed quickly without the usual mess of onsite carpentry."
+  },
+  {
+    id: 11,
+    name: "Mr. Arulselvam",
+    projectType: "ENGINEER",
+    company: "AR BUILDERS",
+    phone: "+91 95784 05896",
+    quote: "We wanted a modern acrylic kitchen, and 3L Interio delivered exactly that. The precision in the cabinets and the smooth finish is amazing. The team was very professional."
+  }
+];
+
 export const PROJECTS: ProjectItem[] = [
   {
     id: 1,

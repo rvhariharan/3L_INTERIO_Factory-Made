@@ -10,6 +10,7 @@ const About = lazy(() => import('./components/About'));
 const Services = lazy(() => import('./components/Services'));
 const WhyChooseUs = lazy(() => import('./components/WhyChooseUs'));
 const Testimonials = lazy(() => import('./components/Testimonials'));
+const Partners = lazy(() => import('./components/Partners'));
 const Projects = lazy(() => import('./components/Projects'));
 const Founder = lazy(() => import('./components/Founder'));
 const SEOSection = lazy(() => import('./components/SEOSection'));
@@ -61,7 +62,7 @@ function App() {
               <Services />
               {/* WhyChooseUs moved to dedicated page for streamlined home */}
               <Projects />
-              <Testimonials />
+              <Partners />
               <SEOSection />
               <CTA />
             </>
