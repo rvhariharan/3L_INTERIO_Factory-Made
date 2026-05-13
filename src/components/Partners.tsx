@@ -17,9 +17,9 @@ const Partners: React.FC = () => {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {PARTNERS.map((partner) => (
-            <div 
-              key={partner.id} 
+          {PARTNERS.filter(partner => !['Mr. KATHIRESAN', 'Mr. REVANTH', 'Mr. SIVASANKAR C', 'Mr. VIGNESHRAJA R'].includes(partner.name)).map((partner) => (
+            <div
+              key={partner.id}
               className="bg-primary/50 backdrop-blur-sm p-6 rounded-sm border border-white/10 hover:border-secondary/50 flex flex-col relative transition-all duration-500 hover:-translate-y-2 group text-left"
             >
               {/* Quote Icon */}
@@ -41,7 +41,7 @@ const Partners: React.FC = () => {
               <div className="mt-auto pt-6 border-t border-white/10">
                 <h4 className="font-bold text-white text-lg tracking-wide">{partner.name}</h4>
                 <p className="text-xs text-secondary font-semibold uppercase tracking-widest mt-1 mb-3">{partner.projectType}</p>
-                
+
                 <div className="flex flex-col space-y-2">
                   {partner.company && (
                     <div className="flex items-center text-gray-400 text-xs">
